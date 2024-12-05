@@ -1,0 +1,17 @@
+{
+  "name": "parcel-webextension-boilerplate",
+  "description": "Simple Parcel Web Extension Boilerplate using Manifest V3",
+  "scripts": {
+    "start": "parcel watch manifest.json --host localhost",
+    "build": "parcel build manifest.json"
+  },
+  "devDependencies": {
+    "@parcel/config-webextension": "2.13.2"
+  },
+  "dependencies": {
+    "parcel": "2.13.2"
+  },
+  "engines": {
+    "node": "20.17.0"
+  }
+}
